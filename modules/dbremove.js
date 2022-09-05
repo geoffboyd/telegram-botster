@@ -1,4 +1,3 @@
-const { PermissionsBitField } = require('discord.js');
 const SQLite = require("better-sqlite3");
 const db = new SQLite('./db/userinputs.sqlite');
 
